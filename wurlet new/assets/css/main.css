@@ -1,0 +1,549 @@
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  body {
+    background-color: rgb(255, 255, 255);
+    font-family: machina;
+  }
+  
+  
+  @font-face {
+    font-family: machina;
+    src: url(fonts/NeueMachina/NeueMachina-Black.otf);
+    font-weight: 500;
+  }
+  
+  @font-face {
+    font-family: machina;
+    src: url(fonts/NeueMachina/NeueMachina-Ultrabold.otf);
+    font-weight: 400;
+  }
+  
+  @font-face {
+    font-family: machina;
+    src: url(fonts/NeueMachina/NeueMachina-Regular.otf);
+    font-weight: 300;
+  }
+  
+  @font-face {
+    font-family: machina;
+    src: url(fonts/NeueMachina/NeueMachina-Light.otf);
+    font-weight: 200;
+  }
+  
+  @font-face {
+    font-family: machina;
+    src: url(fonts/NeueMachina/NeueMachina-Ultralight.otf);
+    font-weight: 100;
+  }
+
+
+
+  /*_________________________________________________________________________________
+  _________________________________________________________________________________
+  
+  MAIN
+
+  _________________________________________________________________________________
+  _________________________________________________________________________________*/
+
+  .blinds{
+    position: fixed;
+    width: 100vw;
+    height: 0vh;
+    z-index: 30;
+    background-color: rgb(173, 173, 173);
+    bottom: 0;
+  }
+
+  
+  
+
+  .cover {
+    display: none;
+    z-index: 15;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    opacity: 80%;
+    position: absolute;
+  }
+
+  .modal {
+    position: absolute;
+    display: none; /* flex */
+    width: 100vw;
+    height:  100vh;
+    z-index: 16;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .modal-box {
+    position: absolute;
+    display: none; /* flex */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2rem;
+  }
+
+  .success {
+    color: white;
+    z-index: 17;
+    position: absolute;
+    font-weight: 300;
+    font-size: 5vw;
+    padding-bottom: 18%;
+  }
+
+  #success {
+    color: white;
+    font-size: 2.2vw;
+    position: absolute;
+    font-weight: 200;
+  }
+
+
+  .awesome-button {
+    position: absolute;
+    background-color: white;
+    font-family: machina;
+    font-weight: 200;
+    font-size: 1.4rem;
+    bottom: 10%;
+    padding: 3% 20%;
+    border-radius: 0.7rem;
+  }
+
+  .awesome-button:hover {
+    background-color: #F3FD37;
+    font-size: 1.7rem;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+
+
+  .image-container {
+      position: absolute;
+      overflow: hidden;
+      width: 100vw;
+      height: 100vh;
+      /*background-color: rgb(230, 230, 230);*/
+  }
+
+  .image-container img {
+      position: absolute;
+  }
+
+  .image4 {
+      bottom: 0;
+      right: 7vw;
+      height: 56vh;
+  }
+
+  .image2 {
+      right: 0;
+      top: 0;
+      height: 40vh;
+  }
+
+  .image3 {
+      bottom: 0;
+      right: 30vw;
+      height: 48vh;
+  }
+
+  .image1 {
+      top: -1vh;
+      right: 30vw;
+      height: 48vh;
+  }
+
+
+  .form {
+      position: absolute;
+      width: 35vw;
+      height: 45vh;
+      margin-top: 20vh;
+      margin-left: 12vw;
+      /*background-color: bisque;*/
+      
+  }
+
+  .form div {
+      color: white;
+      position: relative;
+  }
+
+  .form img {
+    position: relative; 
+    width: 40%;
+    padding-left: 5%;
+  }
+
+  .box {
+      background-color: black;
+      height: 90%;
+      border-radius: 2vw;
+      padding: 8%;
+  }
+
+
+  .message {
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    font-weight: 300;
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+  }
+
+
+  .line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(110, 110, 110);
+  }
+
+
+  .signup {
+    font-weight: 200;
+    padding-top: 3.8vh;
+    font-size: 1.4rem;
+    padding-bottom: 3.8vh;
+    line-height: 1.5rem;
+  }
+
+
+  .input-box {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    border-radius: 0.7rem;
+    border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-width: 0.1rem;
+  }
+
+
+
+.email-text {
+  position: absolute;
+  font-weight: 200;
+  font-size: 1.2rem;
+  padding: 1rem;
+  padding-top: 1.3rem;
+  
+  
+}
+
+.input-email {
+  position: absolute;
+  color: white;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  width: 68%;
+  height: 8.0vh;
+  font-family: inherit;
+  font-weight: 100;
+  font-size: 1.5rem;
+  border-radius: 0.6rem;
+  top: 0;
+  left: 4%;
+
+}
+
+.join {
+  position: absolute;
+  font-family: machina;
+  font-weight: 300;
+  font-size: 1.5vw;
+  height: 100%;
+  padding-right: 7%;
+  padding-left: 7%;
+  right: 0;
+  background-color: white;
+  border-style: solid;
+  border-radius: 0.5rem;
+
+
+}
+
+.join:hover {
+  background-color: #F3FD37;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+
+
+
+
+
+.socials {
+  width: 40vw;
+  font-size: 0.6rem;
+  position: absolute;
+  font-weight: 200;
+  bottom: 13vh;
+  margin-left: 15vw;
+}
+
+
+.socials ul a {
+  background-color: rgb(245, 245, 245);
+  margin: 0.5rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 0.6rem;
+  border-radius: 0.4rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: rgb(126, 126, 126);
+}
+
+.socials ul :hover {
+  background-color: #F3FD37;
+  padding: 0.9rem;
+  font-weight: 400;
+}
+
+
+/*_________________________________________________________________________________
+  _________________________________________________________________________________
+  
+  TAB SIZE
+
+  _________________________________________________________________________________
+  _________________________________________________________________________________*/
+
+
+@media (max-width: 70rem) {
+
+  .image4 {
+    bottom: 0;
+    right: 0vw;
+    height: 46vw;
+}
+
+.image2 {
+    right: 0;
+    top: 0;
+    height: 31vw;
+}
+
+.image3 {
+    bottom: 0;
+    right: 30vw;
+    height: 48vh;
+}
+
+.image1 {
+    top: -1vh;
+    right: 38vw;
+    height: 46vh;
+}
+
+.form {
+  position: absolute;
+  width: 45vw;
+  height: 45vh;
+  margin-top: 25vh;
+  margin-left: 12vw;
+  /*background-color: bisque;*/
+  
+}
+
+
+  
+}
+
+
+
+/*_________________________________________________________________________________
+  _________________________________________________________________________________
+  
+  MOBILE SIZE
+
+  _________________________________________________________________________________
+  _________________________________________________________________________________*/
+
+
+
+@media (max-width: 45rem) {
+
+  
+  .modal-box {
+    width: 80%;
+    height: 40%;
+    margin-bottom: 10%;
+  }
+
+  .success {
+    font-size: 8vw;
+    padding-bottom: 22%;
+  }
+
+  #success {
+    font-size: 4vw;
+  }
+
+
+  .awesome-button {
+    padding: 5% 20%;
+  }
+
+
+.image1 {
+  top: 2vh;
+  right: 50vw;
+  height: 46vw;
+}
+
+.image2 {
+    right: 0;
+    top: 0;
+    height: 40vw;
+}
+
+.image3 {
+    bottom: 0;
+    right: 50vw;
+    height: 60vw;
+}
+
+.image4 {
+  bottom: 0;
+  left: 50vw;
+  height: 60vw;
+}
+
+.form {
+  position: absolute;
+  width: 76.3vw;
+  height: 35vh;
+  margin-top: 28vh;
+  /*background-color: bisque;*/
+}
+
+.form img {
+position: relative; 
+width: 34%;
+padding-left: 9%;
+padding-bottom: 0.5vh;
+}
+
+.box {
+  background-color: black;
+  height: 90%;
+  border-radius: 4vw;
+  padding: 8%;
+}
+
+
+.message {
+padding-top: 1vh;
+padding-bottom: 2vh;
+font-weight: 300;
+font-size: 1.8rem;
+line-height: 2rem;
+}
+
+
+.line {
+width: 100%;
+height: 0.1vh;
+background-color: rgb(110, 110, 110);
+}
+
+
+.signup {
+font-weight: 100;
+padding-top: 2vh;
+font-size: 1.2rem;
+padding-bottom: 2vh;
+line-height: 1.5rem;
+}
+
+
+.input-box {
+position: absolute;
+width: 100%;
+height: 20%;
+border-radius: 2vw;
+border-style: solid;
+border-color: rgb(102, 102, 102);
+border-width: 0.1rem;
+}
+
+
+
+.email-text {
+position: absolute;
+font-weight: 200;
+font-size: 1.2rem;
+padding: 1rem;
+
+
+}
+
+
+.input-email {
+color: white;
+outline: none;
+background-color: rgb(0, 0, 0);
+height: 5.2vh;
+font-family: inherit;
+font-weight: 100;
+font-size: 1.3rem;
+padding-left: 2vw;
+border-radius: 0.6rem;
+
+}
+
+.socials {
+  display: inline-block;
+  width: 70vw;
+  font-size: 0.6rem;
+  position: absolute;
+  font-weight: 200;
+  bottom: 13vh;
+  margin-left: 15vw;
+}
+
+
+.socials ul a {
+  /*display: none;*/
+  background-color: rgb(245, 245, 245);
+}
+
+.mail-link {
+  display: none;
+}
+  
+}
+
+
+
+/*_________________________________________________________________________________
+  _________________________________________________________________________________
+  
+  ANIMATIONS
+
+  _________________________________________________________________________________
+  _________________________________________________________________________________*/
+
+
+
+
+
+

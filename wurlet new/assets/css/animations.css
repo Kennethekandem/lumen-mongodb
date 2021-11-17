@@ -1,0 +1,200 @@
+
+
+.blinds {
+  animation: move-blinds 300ms 0s ease-in-out;
+}
+
+
+.modal {
+  animation: move-box 400ms 0s ease-in-out;
+}
+
+.image1{
+  animation: move-one 700ms 0s ease-in-out;
+}
+
+.image2{
+  animation: move-two 600ms 0s ease-in-out;
+}
+
+.image3{
+  animation: move-three 700ms 0s ease-in-out;
+}
+
+.image4{
+  animation: move-four 800ms 0s ease-in-out;
+}
+
+.box{
+  animation: move-box 400ms 0s ease-in-out;
+}
+
+.form img{
+  animation: move-opacity 700ms 0s ease-in-out;
+}
+
+.socials{
+  animation: move-opacity 700ms 0s ease-in-out;
+}
+
+
+/*_________________________________________________________________________________
+  _________________________________________________________________________________
+  
+  MOBILE ANIMATIONS
+
+  _________________________________________________________________________________
+  _________________________________________________________________________________*/
+
+  @media (max-width: 45rem) {
+
+  .image1{
+    animation: m-move-one 600ms 0s ease-in-out;
+  }
+  
+  .image2{
+    animation: m-move-two 500ms 0s ease-in-out;
+  }
+  
+  .image3{
+    animation: m-move-three 500ms 0s ease-in-out;
+  }
+  
+  .image4{
+    animation: m-move-four 800ms 0s ease-in-out;
+  }
+
+
+
+  @keyframes m-move-one {
+    from {
+      opacity: 0;
+      transform: translateY(-800px);
+    }
+    to {
+      opacity: 100;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes m-move-three {
+    from {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+    to {
+      opacity: 100;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes m-move-two {
+    from {
+      opacity: 0;
+      transform: translateY(-300px);
+    }
+    to {
+      opacity: 100;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes m-move-four {
+    from {
+      opacity: 0;
+      transform: translateX(300px);
+    }
+    to {
+      opacity: 100;
+      transform: translateX(0x);
+    }
+  }
+
+}
+
+
+
+
+
+
+/*_________________________________________________________________________________
+  _________________________________________________________________________________
+  
+  ANIMATION PACKS
+
+  _________________________________________________________________________________
+  _________________________________________________________________________________*/
+ 
+
+@keyframes move-one {
+  from {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  to {
+    opacity: 100;
+    transform: translateX(0);
+  }
+}
+
+@keyframes move-three {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-two {
+  from {
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-four {
+  from {
+    opacity: 0;
+    transform: translateX(300px);
+  }
+  to {
+    opacity: 100;
+    transform: translateX(0x);
+  }
+}
+
+@keyframes move-box {
+  from {
+    opacity: 0;
+    transform: translateY(80px);
+  }
+  to {
+    opacity: 100;
+    transform: translateY(0);
+  }
+}
+
+@keyframes move-opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
+@keyframes move-blinds {
+  from {
+    height: 100%;
+  }
+  to {
+    height: 0;
+  }
+}

@@ -1,0 +1,12 @@
+defaultPortal: kennethekandem
+portals:
+  - name: kennethekandem
+    portalId: 25230760
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CNqx_ujNLxIJAA0AAAAA4A0DGKj7gwwg-cT0DCju6QwyFCi77WmIXitXB27WWhKYIyudmnpfOigAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgQhSfYAq16KPdeERkkJsGACEgxsEANEoDZXUxUgBaAA
+        expiresAt: '2021-11-01T20:10:07.967Z'
+    personalAccessKey: >-
+      CiRldTEtYTVkNC04OTQwLTQxYzUtYWEzYy1mOGU2NjFiMmQwNWMQqPuDDBj5xPQMKhkABeaRgj_xN9XTnwcJu0_Nh8TXRF5-gZnLSgNldTE

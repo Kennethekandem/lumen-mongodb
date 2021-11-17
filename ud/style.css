@@ -1,0 +1,8 @@
+.goofy {
+    --bg: red;
+    background: var(--bg);
+}
+
+.goofy--dark {
+    --bg: black;
+}

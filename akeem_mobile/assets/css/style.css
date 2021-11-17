@@ -1,0 +1,32 @@
+#main {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.sub_div {
+    width: 30%;
+    height: 100px;
+    background: aqua;
+    flex: 0 0 30%;
+    margin: 10px;
+}
+.sub_div:first-child {
+    background: bisque;
+}
+
+#break {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.break_div {
+    width: 30%;
+    height: 100px;
+    background: chocolate;
+    margin: 10px;
+    flex-shrink: 0;
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/angular-datatable" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bongist" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/buzzit_api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/calculator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cometchat-pro-angular-ui-kit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/david-axios" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/express-api-starter-mongo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/express-api-starter-sql" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/express-prisma" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/express/express_crash_course" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/express/express_mongo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gosprint" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gosprint-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gosprint-driver" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gosprint-users" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javascript-angular-chat-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/javascript-react-chat-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/john-midas" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/kennethekandem" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lifepith" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/manage" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/new-website" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nextjs-comet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nextjs-comet/pages/cometchat-pro-react-ui-kit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nextjs-cometchat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nextjs-cometchat/pages/cometchat-pro-react-ui-kit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/payslip" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pollbook" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/pollbook_mobile" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/recreateapp-dev" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/supercharge_api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tex" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tinder-clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tinder-express" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tinder_cometUI" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/topnotch-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/topnotch-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/whatsapp_clone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/whatsapp_express" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/wurlet" vcs="Git" />
+  </component>
+</project>
