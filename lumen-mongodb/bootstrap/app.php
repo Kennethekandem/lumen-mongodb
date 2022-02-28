@@ -25,6 +25,7 @@ $app = new Laravel\Lumen\Application(
 
 // $app->withFacades();
 
+$app->register(Jenssegers\Mongodb\MongodbServiceProvider::class);
  $app->withEloquent();
 
 /*
@@ -60,6 +61,8 @@ $app->singleton(
 */
 
 $app->configure('app');
+//$app->configure('database');
+$app->configure('cors');
 
 /*
 |--------------------------------------------------------------------------
@@ -80,6 +83,10 @@ $app->configure('app');
 //     'auth' => App\Http\Middleware\Authenticate::class,
 // ]);
 
+$app->middleware([
+    App\Http\Middleware\CorsMiddleware::class
+]);
+
 /*
 |--------------------------------------------------------------------------
 | Register Service Providers
@@ -94,7 +101,6 @@ $app->configure('app');
 // $app->register(App\Providers\AppServiceProvider::class);
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
-$app->register(Jenssegers\Mongodb\MongodbServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
