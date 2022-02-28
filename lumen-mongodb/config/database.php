@@ -72,7 +72,7 @@ return [
 
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('DB_URI', 'mongodb+srv://express-mongodb:Black2berry@express-mongodb.dorne.mongodb.net/lumen_mongodb?retryWrites=true&w=majority'),
+            'dsn' => env('DB_URI', 'homestead'),
             'database' => 'lumen_mongodb',
         ],
 
